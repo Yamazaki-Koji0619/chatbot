@@ -1,0 +1,171 @@
+{
+    "init": {
+        "answers": [
+            {"content": "大学について聞きたい", "nextId": "univarsity"},
+            {"content": "プログラミング学習について聞きたい", "nextId": "programming"},
+            {"content": "アルバイトについて聞きたい", "nextId": "job"},
+            {"content": "日常生活について聞きたい", "nextId": "life"}
+        ],
+        "question": "こんにちは！質問は何でしょうか？"
+    },
+    "univarsity": {
+        "answers": [
+            {"content": "どこの大学に通っているの？", "nextId": "univname"},
+            {"content": "何の研究をしているの？", "nextId": "univstudy"},
+            {"content": "その他", "nextId": "other_jobs"}
+        ],
+        "question": "大学についてですね！何でも聞いてください！"
+    },
+    "univname": {
+        "answers": [
+            {"content": "龍谷大学について詳しく知りたい", "nextId": "https://www.ryukoku.ac.jp/"},
+            {"content": "最初の質問に戻る", "nextId": "init"}
+        ],
+        "question": "僕は龍谷大学に通っているよ！"
+    },
+    "univstudy": {
+        "answers": [
+            {"content": "何時代の研究をしているの？", "nextId": "univhistory"},
+            {"content": "最初の質問に戻る", "nextId": "init"}
+        ],
+        "question": "歴史についての研究をしているよ！"
+    },
+    "univhistory": {
+        "answers": [
+            {"content": "もっと詳しく知りたい！", "nextId": "contact"},
+            {"content": "最初の質問に戻る", "nextId": "init"}
+        ],
+        "question": "主に古代史の研究をしているよ！"
+    },
+    "other_jobs": {
+        "answers": [
+            {"content": "問い合わせる", "nextId": "contact"},
+            {"content": "最初の質問に戻る", "nextId": "init"}
+        ],
+        "question": "その他についてですね。コチラからお問い合わせできます。"
+    },
+    "programming": {
+        "answers": [
+            {"content": "今は何の学習をしているの？", "nextId": "programmingnow"},
+            {"content": "何の言語が使えるの？", "nextId": "programminguse"},
+            {"content": "何がキッカケで始めたの？", "nextId": "programmingtrigger"},
+            {"content": "その他", "nextId": "other_jobs"}
+        ],
+        "question": "プログラミング学習についてですね！何でも聞いてください！"
+    },
+    "programmingnow": {
+        "answers": [
+            {"content": "どのくらいできるようになったの？", "nextId": "https://koji0619.github.io/first_practice/"},
+            {"content": "いつから始めたの？", "nextId": "programmingwhen"},
+            {"content": "もっと詳しく聞きたい！", "nextId": "contact"}
+        ],
+        "question": "今はJavascriptの学習をしているよ！"
+    },
+    "programmingwhen": {
+        "answers": [
+            {"content": "もっと詳しく聞きたい！", "nextId": "contact"},
+            {"content": "最初の質問に戻る", "nextId": "init"}
+        ],
+        "question": "Javascriptの学習は、大学2年の1月あたりからやっているよ！"
+    },
+    "programminguse": {
+        "answers": [
+            {"content": "githubが見たい！", "nextId": "https://github.com/Yamazaki-Koji0619"},
+            {"content": "制作物が見たい！", "nextId": "https://koji0619.github.io/first_practice/"},
+            {"content": "もっと詳しく聞きたい！", "nextId": "contact"},
+            {"content": "最初の質問に戻る", "nextId": "init"}
+        ],
+        "question": "HTML,CSS,Javascriptが使えるようになってきたよ！"
+    },
+    "programmingtrigger": {
+        "answers": [
+            {"content": "もっと詳しく聞きたい！", "nextId": "contact"},
+            {"content": "最初の質問に戻る", "nextId": "init"}
+        ],
+        "question": "Webサイトの制作会社でアルバイトを始めたのがキッカケかな！"
+    },
+    "job": {
+        "answers": [
+            {"content": "今は何のアルバイトをしているの？", "nextId": "jobnow"},
+            {"content": "他にどんなアルバイトに挑戦したい？", "nextId": "jobnext"},
+            {"content": "最初の質問に戻る", "nextId": "init"}
+        ],
+        "question": "アルバイトについてだね！何でも聞いてください！"
+    },
+    "jobnow": {
+        "answers": [
+            {"content": "他にアルバイトはしていないの？", "nextId": "jobwas"},
+            {"content": "もっと詳しく聞きたい！", "nextId": "contact"},
+            {"content": "最初の質問に戻る", "nextId": "init"}
+        ],
+        "question": "今はWebサイトの制作会社をしているよ！"
+    },
+    "jobwas": {
+        "answers": [
+            {"content": "もっと詳しく聞きたい！", "nextId": "contact"},
+            {"content": "最初の質問に戻る", "nextId": "init"}
+        ],
+        "question": "今探しているところです！一年ごとに新しい接客のバイトに挑戦するようにしているよ！"
+    },
+    "jobnext": {
+        "answers": [
+            {"content": "もっと詳しく聞きたい！", "nextId": "contact"},
+            {"content": "最初の質問に戻る", "nextId": "init"}
+        ],
+        "question": "個人営業の飲食店に挑戦してみたいな！"
+    },
+    "life": {
+        "answers": [
+            {"content": "君はどんな人なの？", "nextId": "lifeyou"},
+            {"content": "君の好きなことは何？", "nextId": "lifelike"},
+            {"content": "最初の質問に戻る", "nextId": "init"}
+        ],
+        "question": "日常生活についてだね！何でも聞いてください！"
+    },
+    "lifeyou": {
+        "answers": [
+            {"content": "憧れの人は？", "nextId": "liferespect"},
+            {"content": "将来はどんな風になりたい？", "nextId": "lifefuture"},
+            {"content": "もっと詳しく聞きたい！", "nextId": "contact"},
+            {"content": "最初の質問に戻る", "nextId": "init"}
+        ],
+        "question": "真面目に黙々と努力できる人間だと思っているよ！あと几帳面だね！"
+    },
+    "liferespect": {
+        "answers": [
+            {"content": "もっと詳しく聞きたい！", "nextId": "contact"},
+            {"content": "最初の質問に戻る", "nextId": "init"}
+        ],
+        "question": "サッカー選手のクリスティアーノ・ロナウドに憧れているよ！人間性も素晴らしい選手だね！"
+    },
+    "lifefuture": {
+        "answers": [
+            {"content": "もっと詳しく聞きたい！", "nextId": "contact"},
+            {"content": "最初の質問に戻る", "nextId": "init"}
+        ],
+        "question": "将来は困っている人を助けるサービスを生み出すことができるエンジニアになりたいね！"
+    },
+    "lifelike": {
+        "answers": [
+            {"content": "どういう所が魅力なの？", "nextId": "lifecharm"},
+            {"content": "いつから好きなの？", "nextId": "lifewhen"},
+            {"content": "もっと詳しく聞きたい！", "nextId": "contact"},
+            {"content": "最初の質問に戻る", "nextId": "init"}
+        ],
+        "question": "海外サッカーを観戦するのが大好きです！"
+    },
+    "lifecharm": {
+        "answers": [
+            {"content": "もっと詳しく聞きたい！", "nextId": "contact"},
+            {"content": "最初の質問に戻る", "nextId": "init"}
+        ],
+        "question": "戦略の緻密さや驚くようなスーパープレーが魅力だね！"
+    },
+    "lifewhen": {
+        "answers": [
+            {"content": "もっと詳しく聞きたい！", "nextId": "contact"},
+            {"content": "最初の質問に戻る", "nextId": "init"}
+        ],
+        "question": "高校生の時から好きだね！毎週深夜に起き観戦していたよ！"
+    }
+}
